@@ -1,0 +1,22 @@
+{
+  "name": "subwaytile",
+  "version": "0.1.0",
+  "description": "Unobtrusive tile server for MBTiles",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tile",
+    "server",
+    "MBTiles"
+  ],
+  "author": "Matt Yoder",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.9.0",
+    "@mapbox/tilelive": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}
